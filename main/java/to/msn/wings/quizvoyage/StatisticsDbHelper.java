@@ -18,7 +18,7 @@ public class StatisticsDbHelper extends SQLiteOpenHelper {
     private static final String COLUMN_CORRECT_ANSWERS = "correctAnswers"; //正答数
     private static final String COLUMN_TAB_NAME = "tabName"; //選択されたタブ名
     private static final String COLUMN_BUTTON_ID = "buttonId"; //選択されたボタンID
-    private static final String COLUMN_TIMESTAMP = "timestamp"; //各レコードがいつ追加されたかを記録するためのカラム(列)
+    private static final String COLUMN_TIMESTAMP = "timestamps"; //各レコードがいつ追加されたかを記録するためのカラム(列)
 
     //コンストラクタ
     public StatisticsDbHelper(Context context) {
